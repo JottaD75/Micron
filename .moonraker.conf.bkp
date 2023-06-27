@@ -47,6 +47,12 @@ path = ~/mainsail-config
 origin = https://github.com/mainsail-crew/mainsail-config.git
 managed_services = klipper
 
+[power 200W_PSU]
+type = shelly
+address = 192.168.50.45
+user = user2
+password = password2
+
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
